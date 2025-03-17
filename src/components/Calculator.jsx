@@ -22,7 +22,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200" data-testid="calculator">
       <div className="bg-white shadow-lg rounded-lg p-6 w-80">
         {/* Display Section */}
         <div className="mb-4 p-4 bg-gray-100 rounded text-right text-2xl">
